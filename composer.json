@@ -1,0 +1,25 @@
+{
+    "name": "samuele-artuso/mysql-realtime-query-viewer",
+    "description": "A very simple command line tool that shows MySQL queries in real-time, by reading the MySQL general log. Queries are formatted and syntax-highlighted.",
+    "version": "0.1",
+    "type": "application",
+    "keywords": ["mysql", "query", "monitor", "viewer", "realtime", "real-time", "real", "time"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Sam Artuso",
+            "email": "sam@highoctanedev.co.uk"
+        }
+    ],
+    "require": {
+        "symfony/process": "^2.7",
+        "ulrichsg/getopt-php": "2.3.*",
+        "florianwolters/component-util-singleton": "0.3.*",
+        "jdorn/sql-formatter": "^1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "SamArtuso\\": "src/"
+        }
+    }
+}

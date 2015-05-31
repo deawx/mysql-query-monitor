@@ -1,0 +1,15 @@
+#!/usr/bin/php
+<?php
+/**
+ * mysql-query-monitor
+ *
+ * @author    Sam Artuso <sam@highoctanedev.co.uk>
+ * @copyright 2015 Samuele Artuso
+ */
+
+use SamArtuso\MysqlQueryMonitor\MysqlQueryMonitor;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$mysqlQueryMonitor = MysqlQueryMonitor::getInstance();
+$mysqlQueryMonitor->run();
