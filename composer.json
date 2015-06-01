@@ -1,5 +1,5 @@
 {
-    "name": "samuele-artuso/mysql-realtime-query-viewer",
+    "name": "samuele-artuso/mysql-query-monitoir",
     "description": "A very simple command line tool that shows MySQL queries in real-time, by reading the MySQL general log. Queries are formatted and syntax-highlighted.",
     "version": "0.1",
     "type": "application",
