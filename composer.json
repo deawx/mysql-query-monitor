@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "symfony/process": "^2.7",
+        "symfony/process": "^5.4",
         "ulrichsg/getopt-php": "2.3.*",
         "florianwolters/component-util-singleton": "0.3.*",
         "jdorn/sql-formatter": "^1.2"
